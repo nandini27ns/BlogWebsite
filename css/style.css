@@ -11,8 +11,9 @@
     display: flex;
     margin: auto;
     align-items: center;
+    position: static;
 }
-
+ 
 .left{
 
     font-family: 'Rubik Dirt', cursive;
@@ -29,25 +30,57 @@
     list-style: none;
     padding: 0 15px;
     align-items: center;
-    font-size: 19px;
+    font-size: 1rem;
     font-weight: 700;
 }
 .navvy li a{
     text-decoration: none;
 }
 
+.navvy{
+    display: inline-block;
+}
+
 
 .content{
-    height: 500px;
+    height: fit-content;
     max-width: 100vw;
     background-color: aquamarine;
     justify-content: space-between;
     display: flex;
-    margin: auto;
-
-
-    
+    margin: auto;  
 }
+.main{
+
+    height: fit-content;
+}
+.mainimg{
+    width:99vw;
+    height:100vh;
+    position: relative;
+}
+
+.udmain{
+    display: flex;
+position: relative;
+
+}
+.moti{
+    width: 49vw;
+    height:30vw;
+
+}
+.lake{
+    width: 49vw;
+    height:30vw;
+}
+
+
+
+
+
+
+
 
 .footer{
     height: 200px;
