@@ -61,11 +61,15 @@
     top:90%;
     left:20%;
     font-size: 5vw;
-    
-    font-weight: 500;
+    font-weight: 600;
     color: white;
     
 }
+.im1 p{
+    text-align: left;
+    padding: 1rem;
+}
+
 .article1{
     justify-content: space-around;
     
@@ -83,38 +87,38 @@
 
 }
 
-
-
+.artimg:hover{
+    scale: 1.1;
+    transition: 0.8s;
+  }
 
 
 .ud2{
     display:flex;
+    padding:1rem;
 }
 .ud1img{
-    width:99vw;
+    position:relative;
+    width:98vw;
 }
-
+.head{
+    position: absolute;
+    font-size: 5vw;
+    font-weight: 600;
+    top:0;
+    left:40%;
+}
 
 .udmain{
 position: relative;
+background-color: rgb(220, 212, 102);
 
 }
 .moti{
-    width: 49vw;
+    width: 45vw;
     height:30vw;
-
+    padding:1rem;
 }
-.lake{
-    width: 49vw;
-    height:30vw;
-}
-
-
-
-
-
-
-
 
 .footer{
     height: 200px;
@@ -126,3 +130,4 @@ position: relative;
 
 
 }
+
