@@ -106,7 +106,7 @@
     font-size: 5vw;
     font-weight: 600;
     top:0;
-    left:40%;
+    left:45%;
 }
 
 .udmain{
@@ -114,6 +114,11 @@ position: relative;
 background-color: rgb(220, 212, 102);
 
 }
+.lehmain{
+    background-color:rgb(29, 50, 83);
+}
+
+
 .moti{
     width: 45vw;
     height:30vw;
