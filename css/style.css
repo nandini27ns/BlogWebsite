@@ -5,15 +5,30 @@
 }
 
 .navigation{
-    height:100px;
+    height:91px;
     max-width: 100vw;
-    background-color:rgb(24, 22, 24);
+    background-color:rgb(236, 210, 236);
     justify-content: space-between;
     display: flex;
     margin: auto;
     align-items: center;
     z-index: 10;
+    position: sticky;
+    top:0;
 
+}
+
+.nav-link{
+    font-size: 120%;
+    font-family: 'Rye', cursive;
+}
+
+.right{
+    width:40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav-link{
@@ -39,15 +54,10 @@
     background-color: yellow;
 }
 
-@media(max-width:768px){
-    .hamburger{
-        display: block;
 
-    }
-}
 
 .hamburger.active .bar:nth-child(2){
-    opacity:0;
+    opacity:0.;
 }
 
 .hamburger.active .bar:nth-child(1){
@@ -58,7 +68,7 @@
     transform: translateY(-8px) rotate(-45deg);
 }
 
-.navvy{
+/* .navvy{
     position: fixed;
     left:-100%;
     top:70px;
@@ -68,8 +78,19 @@
     width:100%;
     text-align: center;
     transition: 0.3s;
-}
+} */
 
+.navvy{
+    position: static;
+    right:0;
+    top:0;
+    flex-direction: row;
+    height:100%;
+    background-color:rgb(236, 210, 236);
+    width:100%;
+    text-align: center;
+    transition: 0.3s;
+}
 .navvy li{
     margin:16px 0;
 }
@@ -83,15 +104,10 @@ navvy.active{
 .left{
 
      font-weight: 400;
-     font-size: large ;
-     color: white;
+     color: rgb(16, 15, 15);
+     font-family: 'Spicy Rice', cursive;
 }
 
-.ipsearch{
-
-    padding: 0px;
-    border: 2px solid black;
-}
 .navvy li {
     display:inline-block;
     list-style: none;
@@ -99,21 +115,22 @@ navvy.active{
     align-items: center;
     font-size: 1rem;
     font-weight: 700;
-    color: white;
 }
 .navvy li a{
     text-decoration: none;
 }
 
 .navvy{
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
 
 
 .content{
-    background-color: aquamarine;
+    background-color: ivory;
     justify-content: space-between;
     margin: auto;  
 }
@@ -148,6 +165,10 @@ navvy.active{
     display: inline-flex;
     list-style-type: none;
 
+}
+
+.artitemli{
+    width:43vw;
 }
 
 .artimg{
@@ -245,6 +266,11 @@ background-color: rgb(220, 212, 102);
     margin:1rem;
 }
 
+.exp-img-k{
+    box-shadow:  3px 10px 16px 2px rgb(226, 130, 212);
+    margin:1rem;
+}
+
 
 .im1k{
     box-shadow:  3px 10px 16px 2px rgb(65, 217, 141);
@@ -285,7 +311,7 @@ background-color: rgb(220, 212, 102);
 }
 
 .write{
-    background-color: darkviolet;
+    background-color: rgb(201, 241, 201);
     height:15rem;
     padding: 2rem  0  0  4rem;
     display:flex;
@@ -318,20 +344,22 @@ background-color: rgb(220, 212, 102);
 
 
 .form{
-    box-shadow:  7px 20px 19px 2px rgb(0, 51, 255);
+    box-shadow:  7px 20px 19px 2px rgb(100, 104, 122);
      width:45vw;
      padding: 5rem;
      padding-bottom: 10rem;
      
      margin:  2rem 6rem 6rem 6rem ;
      height:100 rem;
-     background-color: rgb(13, 24, 61);
+     background-color: linen;
 
 }
 
 .label{
     font-size: 2rem;
-    color:white;
+    color:rgb(21, 20, 20);
+    font-family: 'Spicy Rice', cursive;
+
     
 }
 
@@ -342,8 +370,6 @@ background-color: rgb(220, 212, 102);
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
-    background-color: hwb(280 69% 9%);
-    box-shadow:  3px 2px 13px 2px rgb(0, 51, 255);
 }
 .textarea{
   width: 100%;
@@ -352,19 +378,14 @@ background-color: rgb(220, 212, 102);
   box-sizing: border-box;
   border: 2px solid #ccc;
   border-radius: 4px;
-  background-color: hwb(280 69% 9%);  
   resize: none;
-  box-shadow:  3px 2px 13px 2px rgb(0, 51, 255);
-
-
-
 }
 
 .submit{
     height:3rem;
     width:7rem;
     margin:3rem;
-    background-color: rgb(197, 197, 57);
+    background-color: rgb(230, 197, 240);
     border-radius: 2rem;
 }
 
@@ -372,22 +393,9 @@ background-color: rgb(220, 212, 102);
     height:3rem;
     width:7rem;
     margin:3rem  2rem;
-    background-color: rgb(197, 197, 57);
+    background-color: rgb(230, 197, 240) ;
     border-radius: 2rem;
 }
-
-
-
-
-/* .foot{
-    height: 200px;
-    max-width: 100vw;
-    background-color: bisque;
-    justify-content: space-between;
-    display: flex;
-    margin: auto;
-} */
-
 
 
 .foot {
@@ -397,7 +405,7 @@ background-color: rgb(220, 212, 102);
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: rgb(235, 150, 182);
+    background-color: rgb(191, 198, 248);
     height: 45vh;
     width:98.7vw;
   }
@@ -445,3 +453,27 @@ background-color: rgb(220, 212, 102);
   .foot li{
     margin:2rem;
   }
+
+  @media only screen and (max-width:768px){
+    .hamburger{
+        display: block;
+
+    }
+    .right{
+    width: 30%;
+     height: 250px;
+     display:none;
+    }
+    .navvy{
+        position: absolute;
+        top: 64px;
+        right:0;
+        flex-direction: column;
+        height: 250px;
+        text-align: center;
+        transition: 0.3s;
+        z-index: 5;
+        width:30%;
+       
+    } 
+}
