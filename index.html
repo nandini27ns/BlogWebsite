@@ -7,6 +7,15 @@
     <title>blog website</title>
     <link rel="stylesheet"  href="css/style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kenia&display=swap" rel="stylesheet">
+
+
 </head>
 
 
@@ -17,32 +26,38 @@
             <div class="left">TRAVELTASTIC</div>
             <div class="right"> 
                 <ul class="navvy">
-                        <li><button class="ipsearch"><input type="text" placeholder="search place"> </button> </li>
-                         <li> <a href="/" style="color:white">destinations</a></li>
-                         <li><a href="/" style="color:white">photos</a></li>
+                        <li >  <a href="/" class="nav-link"  style="color:rgb(186, 25, 25)">home</a></li>
+                         <li> <a href="/"  class= "nav-link " style="color:rgb(212, 21, 21)">destinations</a></li>
+                         <li><a href="/" class=" nav-link"  style="color:rgb(181, 37, 37)">photos</a></li>
                 </ul>
             </div>
+            <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
     </nav>
-
+   <script src="script.js"></script>
 
    <div class="content">
 
             <div class="main" >
                         <img class="mainimg" src="images/main3.jpg" >
-                        <h1 class= "blog" >4 BEST PLACES TO VISIT</h1>
+                        <h1 class= "blog" ></h1>
             </div>
 
-            <br><br><br><br>
->
+            <br><br>
+>           <h1 style="padding: 0  0  0  1.5rem"><i>TOP TRENDING PLACES OF THIS MONTH -:</i></h1>
+            <br><br>
             <div class ="articles1">
                 <center>
                     <ul class ="artitem">
-                            <li > 
-                                    <img class="artimg" src="images/ud article.jpg">
+                            <li class="artitemli" > 
+                                    <img class="artimg " src="images/ud article.jpg">
                                     <a href="udaipur.html" target="_blank"><h1>UDAIPUR</h1></a>
                              </li>
-                             <li >
-                                    <img class="artimg" src="images/leh article.jpg">
+                             <li class="artitemli" >
+                                    <img class="artimg " src="images/leh article.jpg">
                                     <a href="leh.html" target="_blank"><h1>LEH</h1></a>
                               </li>
                     </ul>     
@@ -53,23 +68,62 @@
                 <center>
                     <ul class ="artitem">
                             <li class="artitemli"> 
-                                    <img class="artimg" src="images/kart.jpg">
+                                    <img class="artimg  " src="images/kart.jpg">
                                     <a href="kerala.html"target="_blank" ><h1>KERALA</h1></a>
                                     
                              </li>
                              <li class="artitemli">
-                                    <img class="artimg" src="images/rishiart.jpg">
+                                    <img class="artimg " src="images/rishiart.jpg">
                                     <a href="rishikesh.html" target="_blank"><h1>RISHIKESH</h1></a>
                               </li>
                     </ul>     
                 </center>
                 <br><br><br><br><br>
              </div>
+           
+             <div class="write">
+                <div class="write1">
+                   <h2>SHARE YOUR EXPERIENCE WITH US✍🏻</h2>
+                   <button class="tap"><a href="form.html" target="_blank">CLICK TO WRITE</a></button>
+                </div>   
+                    <img src="images/think4.jpg"  class ="wimg" >
+
+             </div><br><br><br><br>
 
    </div>
     
 
-   <div class="footer">
+   
+    <div class="foot" id="link-contactme">
+        <p class="headf" style="font-family: 'Abril Fatface', cursive; ">
+        Contact us :</p>
+        
+          <ul>
+            <li>
+              <a href="https://github.com/nandini27ns" target="_blank"
+                ><img src="images/git.png" alt="git" class="imgf"></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/nandini-sharma-a12b83244/"
+                target="_blank"
+                ><img src="images/linkedin.png" alt="linkedin" class="imgf"></a>
+            </li>
+            <li>
+                <a href="#" target="_blank" >
+                <img src="images/insta.png" alt="insta" class="imgf"></a>
+            </li>
+            <li>
+                <a href="#" target="_blank"></a>
+                <img src="images/whatsapp.png" alt="whatsapp" class="imgf" >
+                </a>
+            </li>
+          </ul>
+          <h3 class="credits">Made along with ☕ by NANDINI SHARMA 😎</h3>
+
+      </div>
+      
+      
+  
 
    </div>
 
