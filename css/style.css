@@ -18,9 +18,11 @@
 
 }
 
+
 .nav-link{
     font-size: 120%;
     font-family: 'Rye', cursive;
+    color: purple;
 }
 
 .right{
@@ -56,17 +58,6 @@
 
 
 
-.hamburger.active .bar:nth-child(2){
-    opacity:0.;
-}
-
-.hamburger.active .bar:nth-child(1){
-    transform: translateY(8px) rotate(45deg);
-}
-
-.hamburger.active .bar:nth-child(3){
-    transform: translateY(-8px) rotate(-45deg);
-}
 
 /* .navvy{
     position: fixed;
@@ -95,8 +86,8 @@
     margin:16px 0;
 }
 
-navvy.active{
-    left:0;
+.navvy.active{
+    right:0;
 }
 
 
@@ -127,6 +118,43 @@ navvy.active{
 
 }
 
+.home:hover  .content{
+    display:contents;
+}
+
+
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    background-color: azure;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #2ebc3c;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #5e1256;
+    background-color: #00A4BD;
+  }
+
+  .photo{
+    height:30%;
+    width:50%;
+  }
 
 
 .content{
@@ -262,7 +290,7 @@ background-color: rgb(220, 212, 102);
 }
 
 .exp-img-r{
-    box-shadow:  3px 10px 16px 2px rgb(228, 243, 16);
+    box-shadow:  3px 10px 16px 2px rgb(202, 98, 230);
     margin:1rem;
 }
 
@@ -283,7 +311,8 @@ background-color: rgb(220, 212, 102);
     box-shadow:  3px 10px 16px 2px rgb(0, 51, 255);
    margin:0.3rem;
 }
-
+.im1l p{
+}
 
  .im1r h2,.im1l h2, .im1ud  h2,.im1k h2{
     font-family: 'Dangrek';
@@ -459,6 +488,18 @@ background-color: rgb(220, 212, 102);
         display: block;
 
     }
+    .hamburger.active .bar:nth-child(2){
+        opacity:0.;
+    }
+    
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
     .right{
     width: 30%;
      height: 250px;
